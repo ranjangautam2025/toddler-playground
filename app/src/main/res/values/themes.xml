@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.Kiosk" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Draw into the cutout area so the walls are the true screen edges -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

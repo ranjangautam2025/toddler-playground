@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- testOnly lets `adb shell dpm remove-active-admin` remove device owner during development.
+     Install with `adb install -t` (Android Studio does this automatically). -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:testOnly="true" />
+</manifest>
